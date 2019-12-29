@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" initial-scale="1">
+    <title>Сonverter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+
+<!-- контейнер с значениями -->
+    <div class="container">
+        <input id="input" class="question" type="number" placeholder="
+        Enter the number of m or km">
+        <div class="answer">
+            <p>Result:
+                <input id="result"></input></p>
+        </div>
+    </div>
+
+
+<!-- контейнер с переключателем -->
+    <div class="container">
+        <div class="toogle">
+            <p><b>m</b></p>
+            <label class="switch">
+                <input id="toogle" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <p><b>km</b></p>
+        </div>
+    </div>
+
+
+<!-- контейнер с выбором и кнопкой -->
+    <div class="container">
+        <div class="choice">
+            <select id="selectchoice">
+                <option value="verst">Verst</option>
+                <option value="mile">Mile</option>
+                <option value="foot">Foot</option>
+                 <option value="yard">Yard</option>
+            </select>
+        </div>
+
+        <div class="accept">
+            <button type="submit" id="convert"><b>Convert</b></button>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
